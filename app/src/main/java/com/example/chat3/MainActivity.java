@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
     private void sendMessage() {
         String messageText = messageInput.getText().toString().trim();
         if (!messageText.isEmpty()) {
-            String senderName = "Badu";
+            String senderName = "Mohan";
             String timestamp = getCurrentTimestamp();
 
             String encryptedMessage = encryptMessage(messageText);
