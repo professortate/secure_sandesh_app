@@ -2,22 +2,55 @@
 
 `secureSandesh` is an Android chat application that provides authenticated messaging through Firebase. Users can create accounts, sign in with email and password or phone verification, and exchange messages stored in Firebase Realtime Database.
 
-## Features
+## Screenshots
 
-- Email/password account registration and sign-in
-- Phone-number verification with Firebase Authentication
-- Firebase Realtime Database message synchronization
-- Chat interface with:
-  - Sender names
-  - Message timestamps
-  - RecyclerView-based message history
-  - Send and sign-out controls
-- Minimum Android SDK 26 support
-- Java-based Android application with AndroidX and Material Design components
-- Debug APK artifacts included in the repository
+### Authentication
 
-> **Security note:** Messages currently use a simple character-substitution transformation in `MainActivity`, not modern cryptographic encryption. Do not use this implementation for protecting sensitive or production data without replacing it with a vetted end-to-end encryption design.
+The application provides email/password authentication and phone-number verification through Firebase Authentication.
 
+<p align="center">
+  <img src="docs/screenshots/signin.jpg" width="300">
+</p>
+
+<p align="center">
+  <b>Sign-in screen</b> — Email/password and phone verification authentication
+</p>
+
+### Chat Interface
+
+After authentication, users can exchange messages in real time. The chat interface displays sender names, message content, and timestamps.
+
+<p align="center">
+  <img src="docs/screenshots/chat.jpg" width="300">
+</p>
+
+<p align="center">
+  <b>Real-time chat interface</b> — Firebase Realtime Database synchronized messaging
+</p>
+
+### Firebase Authentication
+
+User accounts are managed through Firebase Authentication.
+
+<p align="center">
+  <img src="docs/screenshots/firebase-authentication.png" width="850">
+</p>
+
+<p align="center">
+  <b>Firebase Authentication dashboard</b> — Registered users and authentication providers
+</p>
+
+### Firebase Realtime Database
+
+Messages exchanged through the application are synchronized and stored using Firebase Realtime Database.
+
+<p align="center">
+  <img src="docs/screenshots/firebase-realtime-database.png" width="850">
+</p>
+
+<p align="center">
+  <b>Firebase Realtime Database</b> — Stored chat messages and sender information
+</p>
 ## Technology stack
 
 - Java
