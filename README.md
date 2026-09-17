@@ -51,6 +51,7 @@ Messages exchanged through the application are synchronized and stored using Fir
 <p align="center">
   <b>Firebase Realtime Database</b> — Stored chat messages and sender information
 </p>
+
 ## Technology stack
 
 - Java
