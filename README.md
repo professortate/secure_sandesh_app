@@ -9,7 +9,7 @@
 The application provides email/password authentication and phone-number verification through Firebase Authentication.
 
 <p align="center">
-  <img src="docs/screenshots/signin.jpg" width="300">
+  <img src="screenshots/signin.jpg" width="300">
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ The application provides email/password authentication and phone-number verifica
 After authentication, users can exchange messages in real time. The chat interface displays sender names, message content, and timestamps.
 
 <p align="center">
-  <img src="docs/screenshots/chat.jpg" width="300">
+  <img src="screenshots/chat.jpg" width="300">
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ After authentication, users can exchange messages in real time. The chat interfa
 User accounts are managed through Firebase Authentication.
 
 <p align="center">
-  <img src="docs/screenshots/firebase-authentication.png" width="850">
+  <img src="screenshots/firebase-authentication.png" width="850">
 </p>
 
 <p align="center">
@@ -45,7 +45,7 @@ User accounts are managed through Firebase Authentication.
 Messages exchanged through the application are synchronized and stored using Firebase Realtime Database.
 
 <p align="center">
-  <img src="docs/screenshots/firebase-realtime-database.png" width="850">
+  <img src="screenshots/firebase-realtime-database.png" width="850">
 </p>
 
 <p align="center">
